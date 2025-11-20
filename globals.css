@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fallback colors in case Tailwind utilities aren't generated */
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main {
+  min-height: 100vh;
+}
